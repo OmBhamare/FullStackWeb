@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        nav ul li {
+            list-style: none;
+
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0px 0.2px 0.2px 0.2px;
+            width: 100%;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+        }
+
+        ul {
+            display: flex;
+            gap: 20px;
+            /* background-color: aquamarine; */
+        }
+
+        nav ul img {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+        }
+
+        .header {
+            margin-right: 100px;
+        }
+
+        #dog {
+            height: 500px;
+            width: 500px;
+            border-radius: 50%;
+            border-image: 10px;
+            border-color: rgb(226, 43, 43);
+        }
+
+        .row {
+            display: flex;
+        }
+        .column{
+            self-align: center;
+        }
+        .first{
+            display: flex !important;
+            gap: 100px !important;
+       
+        }
+        .first img{
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+        }
+.second{
+    display: flex;
+    gap: 100px;
+}
+        .second img{
+            display: flex;
+    
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+        }
+        .btn{
+            display: flex;
+            justify-content: end ;
+        }
+        .pic{
+            display: flex;
+            gap: 100px;
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+        }
+        footer p{
+            position: static;
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            background-color: brown;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="https://cdn.pixabay.com/photo/2017/03/19/20/19/ball-2157465_960_720.png">
+                </a>
+            </li>
+        </ul>
+        <ul class="header">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Services</a></li>
+            <li><button>Log In</button></li>
+        </ul>
+    </nav>
+    <section class="row">
+        
+            <div class="column">
+                <img src="https://cdn.pixabay.com/photo/2018/10/01/09/21/pets-3715733_960_720.jpg" alt="dogs" id="dog">
+            </div>
+
+            <div class="column">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem sint dolorum quam, fugit odit eaque
+                    officiis! Nobis, explicabo vel. Ipsa voluptatem maxime velit ipsum suscipit molestias nam,
+                    accusantium illo placeat. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo sunt autem, et molestias excepturi minima corrupti
+                     sapiente nesciunt tempore quae architecto non libero aut quaerat iure provident omnis impedit natus!</p>
+                    <div class="btn">
+                        <a href="learn">...learn more</a>
+                    </div>
+            </div>
+       
+    </section>
+    <marquee class="first"  behavior="rowspan" direction="rowspan">
+        <div >
+            <img src="https://cdn.pixabay.com/photo/2022/05/20/11/58/beetle-7209311__340.jpg" alt="">
+            <img src="https://cdn.pixabay.com/photo/2021/11/15/21/39/rose-6799478__340.jpg" alt="">
+            <img src="https://cdn.pixabay.com/photo/2022/06/06/10/55/cat-7245850__340.jpg" alt="">
+            <img src="https://cdn.pixabay.com/photo/2022/06/08/10/20/lighthouse-7250229__340.jpg" alt="">
+        </div>
+     
+    </marquee>
+    <section class="row">
+        <div >
+            <img src="https://cdn.pixabay.com/photo/2022/03/20/21/34/bird-7081904__340.jpg" class="pic">
+            <br>
+                <b><center>Peacock</center></b>
+            <br>
+        </div>
+        <div>
+            <img src="https://cdn.pixabay.com/photo/2022/06/03/20/15/sunset-7240788__340.jpg" class="pic">
+            <br>
+                <b><center>Sunset</center></b>
+            <br>
+        </div>
+        <div>
+            <img src="https://cdn.pixabay.com/photo/2019/04/23/09/08/animal-4148904__340.jpg" class="pic">
+            <br>
+                <b><center>Sea Mammal</center></b>
+            <br>
+        </div>
+        <div>
+            <img src="https://cdn.pixabay.com/photo/2021/10/10/06/22/seagull-6695728__340.jpg" class="pic">
+            <br>
+                <b><center>Flying Bird</center></b>
+            <br>
+        </div>
+        
+    </section>
+    <footer>
+        <section>
+            <div>
+                <a href="#">Privacy</a>
+            </div>
+            <div>
+                <a href="#">Reviews</a>
+            </div>
+        </section>
+        <p>Copyright &copy; 2022 Omii Baba Pvt</p>
+    </footer>      
+
+</body>
+
+</html>
